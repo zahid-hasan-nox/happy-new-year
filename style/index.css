@@ -1,0 +1,199 @@
+body{
+    margin: 10px;
+    background-color: #f7f1d9;
+}
+/* STYLES */
+.btn{
+    background-color: hotpink;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: lightblue;
+    transition: 0.5s;
+    color: hotpink;
+}
+p{
+    font-size: 15px;
+}
+
+/* HEADER */
+     
+.k-color{color: deeppink; font-family: fantasy; font-size: 20px;}
+nav{
+    color:rgb(2, 43, 43);
+    display: flex; 
+    font-weight: bold;   
+    justify-content: space-around;
+    align-items: center; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* MAIN */
+
+/* hero-section */
+.hero-section{
+    background-image: url(Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+.first-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secend-part{
+    text-align: center;
+    margin-top: 150px;
+}
+.new-year-text,.happy-text{
+    font-weight: bold; color: #000000; font-size: 28px;font-size: 38px; border: solid 5px;}
+
+/* discount-section */
+
+.off{
+    color:  #ff0000;
+    font-weight: bold;
+    font-size: 88px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.holyday-deals{
+    color:#ff0000;
+    font-size: 24px;
+    font-weight: 600;
+}
+.categories{
+    color: #ff0000;
+    font-size: 48px;
+    font-weight: bold;
+}
+.discount-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer{
+    background-color: #000000;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 0px 260px;
+    box-shadow: 0px 6px 20px 0px hotpink;
+}
+.container{
+    text-align: center;
+}
+img{
+    margin-top: 20px;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+/* welcome section */
+
+.midnight{font-size: 64px;color: #ffffff; margin-bottom: 24px;}
+.midnight2{font-size: 18px; color: #ffffff; margin-top: 0px;}
+.w-c{
+    background-image: url(Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    box-shadow:0px 6px 20px 10px lightblue;
+}
+.welcome-section{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 126px;
+    margin-bottom: 0px;
+}
+.year img{
+    width:320px;
+    height: 450px;
+    /* margin-right: 248px; */
+    margin: 68px;
+    padding-right: 118px;    
+}
+.w-c-s{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 138px;
+}
+
+/* place-section */
+.place-section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.place-box{
+    background-color: lightblue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+    width: 1300px;
+    height: 400px;
+    box-shadow: 0px 6px 20px 10px hotpink;
+    border-radius: 10px;
+    flex-direction: column; 
+    margin-top:126px;
+}
+.red-zone{font-size: 32px;font-weight: 600;text-align: center;}
+.spin{color: #ff0000;text-align: center;text-shadow: 0px 6px 20px 8px rgb(0, 0, 0);}
+
+/* coming-section */
+.coming-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.soon-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    margin: 120px 110px;
+}
+.p-one{font-size: 24px;font-weight: 500;color: #ff0000;}
+.p-two{font-size: 48px;font-weight:bold;}
+.p-three{font-size: 20px;font: weight 300px;width: 290px;}
+.img-part-1{width:360px;height:360px; margin: 120px 110px;}
+.happy-year-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+}
+.year{font-size: 48px; color: #ff0000;}
+.img-part-2{width: 140px;height: 140px;}
+/* sell-section */
+.sell-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hotpink;
+}
+.holydays{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.fun-p{font-size: 24px;font-weight: 400;}
+.holyday-sell{font-size: 72px;font-weight: bold;}
+.days{color: #ff0000;}
