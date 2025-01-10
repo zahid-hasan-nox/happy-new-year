@@ -1,5 +1,5 @@
 body{
-    margin: 10px;
+    margin: 0px;
     background-color: #f7f1d9;
 }
 /* STYLES */
@@ -33,6 +33,7 @@ nav{
     align-items: center; 
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 /* MAIN */
@@ -171,7 +172,7 @@ img{
 .p-one{font-size: 24px;font-weight: 500;color: #ff0000;}
 .p-two{font-size: 48px;font-weight:bold;}
 .p-three{font-size: 20px;font: weight 300px;width: 290px;}
-.img-part-1{width:360px;height:360px; margin: 120px 110px;}
+.img-part-1{width:360px;height:360px; margin: 120px 110px; border: 10px solid hotpink; border-radius: 50%; padding: 50px;}
 .happy-year-part{
     display: flex;
     justify-content: space-around;
@@ -185,7 +186,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hotpink;
+    flex-direction: column;
 }
 .holydays{
     display: flex;
@@ -194,6 +195,98 @@ img{
     text-align: center;
     flex-direction: column;
 }
-.fun-p{font-size: 24px;font-weight: 400;}
-.holyday-sell{font-size: 72px;font-weight: bold;}
-.days{color: #ff0000;}
+.fun-p{font-size: 24px;font-weight: 400;padding: 0px;margin: 0px;}
+.holyday-sell{font-size: 72px;font-weight: bold;padding: 0px;margin: 0px;}
+.days{color: #ff0000;padding: 0px;margin: 0px;}
+.midnight3{font: size 24px;;font-weight: 500;color: rgb(79, 79, 79);text-align: center;width: 606px;}
+.img-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 250px;
+    height: 150px;
+    gap: 200px;
+    position: relative;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;}
+.img-gift{width: 670px; height: 570px; padding: 0px;margin: 0px;}
+.img-discount{width: 200px;height: 200px;padding: 0px;margin: 0px}
+.img-red{width: 1320px;height: 230px;padding: 0px;margin: 0px;}
+
+/* gift-section */
+.gift-section{
+    margin-top: 100px;
+}
+.gifts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+    text-align: center;
+}
+.p-gift{font-size: 24px;font-weight: 400;color: #ff0000;padding: 0px;margin: 0px;}
+.p-our{font-size: 48px;font-weight: bold;padding: 0px;margin: 0px;}
+.all-gift-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.imgs-gift{width: 430px;height: 450px;}
+/* subscribe-section */
+.subscribe-section{
+    width: 1320px;
+    height: 600px;
+    background-color: hotpink;
+    margin-left: 90px;
+    box-shadow: 0px 6px 20px 10px lightblue;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.message-pic{width: 150px;height: 150px;margin-top: 58px;padding: 0px;margin-bottom: 0px;}
+.sub-title{font-size: 48px;font-weight: bold;padding: 10px;margin: 0px ;color: bisque;border: 2px solid lightblue;border-radius: 5px;}
+.sub-text{font-size: 20px;font-weight: 400;color: bisque;text-align: center;width: 550px;padding: 0px;margin: 0px ;}
+.type-email{height: 50px;width: 500px; padding-left: 20px;border-style: none;border-radius: 8px;}
+.sub{
+    color: bisque;
+    background-color:black;
+    text-decoration: none;
+    padding: 17px;
+    border-radius: 0px 0px 0px 5px;
+}
+.email-container{
+    display: flex;
+}
+ /* FOOTER SECTION */
+.footer-section{
+    background-color: #000000;
+    margin: 100px 0px 0px 0px;
+}
+.address{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 120px;
+    gap: 50px;
+}
+.w-c{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.area{font-size: 24px;font-weight: bold;color: hotpink;}
+.web{font-size: 24px;font-weight: bold;color: hotpink;}
+.number{font-size: 24px;font-weight: bold;color: hotpink;}
